@@ -14,6 +14,10 @@
 		445BB0571AE73F4300F87BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445BB0561AE73F4300F87BF3 /* Images.xcassets */; };
 		445BB05A1AE73F4300F87BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445BB0581AE73F4300F87BF3 /* LaunchScreen.xib */; };
 		445BB0661AE73F4300F87BF3 /* Tips_With_TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BB0651AE73F4300F87BF3 /* Tips_With_TabsTests.swift */; };
+		445BB0721AE744A500F87BF3 /* EnterDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BB0711AE744A500F87BF3 /* EnterDataViewController.swift */; };
+		445BB0741AE7566900F87BF3 /* ListShiftsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BB0731AE7566900F87BF3 /* ListShiftsTableViewController.swift */; };
+		8DCB15211B0CFF8200C5D519 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB15201B0CFF8200C5D519 /* Shift.swift */; };
+		8DCB15271B0E495900C5D519 /* AverageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB15261B0E495900C5D519 /* AverageViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		445BB05F1AE73F4300F87BF3 /* Tips With TabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tips With TabsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		445BB0641AE73F4300F87BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445BB0651AE73F4300F87BF3 /* Tips_With_TabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips_With_TabsTests.swift; sourceTree = "<group>"; };
+		445BB0711AE744A500F87BF3 /* EnterDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterDataViewController.swift; sourceTree = "<group>"; };
+		445BB0731AE7566900F87BF3 /* ListShiftsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShiftsTableViewController.swift; sourceTree = "<group>"; };
+		8DCB15201B0CFF8200C5D519 /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		8DCB15261B0E495900C5D519 /* AverageViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +87,13 @@
 		445BB0491AE73F4300F87BF3 /* Tips With Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				445BB04C1AE73F4300F87BF3 /* AppDelegate.swift */,
-				445BB0511AE73F4300F87BF3 /* ViewController.swift */,
 				445BB0531AE73F4300F87BF3 /* Main.storyboard */,
-				445BB0561AE73F4300F87BF3 /* Images.xcassets */,
-				445BB0581AE73F4300F87BF3 /* LaunchScreen.xib */,
 				445BB04E1AE73F4300F87BF3 /* Tips_With_Tabs.xcdatamodeld */,
 				445BB04A1AE73F4300F87BF3 /* Supporting Files */,
+				445BB0711AE744A500F87BF3 /* EnterDataViewController.swift */,
+				445BB0731AE7566900F87BF3 /* ListShiftsTableViewController.swift */,
+				8DCB15201B0CFF8200C5D519 /* Shift.swift */,
+				8DCB15261B0E495900C5D519 /* AverageViewViewController.swift */,
 			);
 			path = "Tips With Tabs";
 			sourceTree = "<group>";
@@ -93,6 +101,10 @@
 		445BB04A1AE73F4300F87BF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				445BB0581AE73F4300F87BF3 /* LaunchScreen.xib */,
+				445BB0561AE73F4300F87BF3 /* Images.xcassets */,
+				445BB04C1AE73F4300F87BF3 /* AppDelegate.swift */,
+				445BB0511AE73F4300F87BF3 /* ViewController.swift */,
 				445BB04B1AE73F4300F87BF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -216,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				445BB0521AE73F4300F87BF3 /* ViewController.swift in Sources */,
+				445BB0741AE7566900F87BF3 /* ListShiftsTableViewController.swift in Sources */,
 				445BB04D1AE73F4300F87BF3 /* AppDelegate.swift in Sources */,
+				8DCB15211B0CFF8200C5D519 /* Shift.swift in Sources */,
 				445BB0501AE73F4300F87BF3 /* Tips_With_Tabs.xcdatamodeld in Sources */,
+				8DCB15271B0E495900C5D519 /* AverageViewViewController.swift in Sources */,
+				445BB0721AE744A500F87BF3 /* EnterDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 				445BB06B1AE73F4300F87BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		445BB06C1AE73F4300F87BF3 /* Build configuration list for PBXNativeTarget "Tips With TabsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				445BB06E1AE73F4300F87BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
